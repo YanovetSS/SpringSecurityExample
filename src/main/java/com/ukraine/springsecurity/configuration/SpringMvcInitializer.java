@@ -3,6 +3,7 @@ package com.ukraine.springsecurity.configuration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 // check test
+//Natasha Kuss
 public class SpringMvcInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
