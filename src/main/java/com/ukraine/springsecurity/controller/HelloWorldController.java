@@ -31,6 +31,7 @@ public class HelloWorldController {
 
     @RequestMapping(value = {"/db"},method = RequestMethod.GET)
     public String dbaPage(ModelMap modell){
+        //remember github
         modell.addAttribute("user",getPrincipal());
         return "dba";
     }
